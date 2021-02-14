@@ -1,21 +1,33 @@
-﻿namespace TestProject1 {
-    public class Fibonacci {
-        public static int Memoize(int i, int[] buffer){
-            if (buffer[i] != 0) return buffer[i];
-            else{
-                buffer[i] = Memoize(i-1, buffer) + Memoize(i-2, buffer);
-            }
-            return buffer[i];
-        }
+﻿using System.Collections.Generic;
 
-        public static int BottomUp(int i, int n){
-            int[] buffer = new int[n];
-            buffer[0]=1;
-            buffer[1]=1;
-            for(int j=2; j<n; j++){
-                buffer[j] = buffer[j-1]+buffer[j-2];
+namespace TestProject1 {
+    public class Fibonacci {
+        /// <summary>
+        /// returns the nth fibonacci number using memoize approach
+        /// </summary>
+        public static long Memoize(int n, Dictionary<int, long> memoize = null){
+            memoize ??= new Dictionary<int, long>();
+            if (memoize.ContainsKey(n)) return memoize[n];
+            if (n == 0) return 0;
+            if (n == 1) return 1;
+            
+            memoize[n] = Memoize(n - 1, memoize) + Memoize(n - 2, memoize);
+            return memoize[n];
+        }
+        
+        /// <summary>
+        /// returns the nth fibonacci number using bottom up approach, better space complexity than memoize 
+        /// </summary>
+        public static long BottomUp(int n) {
+            //adding 2 in case n is 0
+            long[] buffer = new long[n + 2];
+            buffer[0] = 0;
+            buffer[1] = 1;
+            for (int i = 2; i <= n; i++) {
+                buffer[i] = buffer[i - 2] + buffer[i - 1];
             }
-            return buffer[i];
+
+            return buffer[n];
         }
     }
 }

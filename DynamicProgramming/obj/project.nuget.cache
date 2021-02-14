@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GoV7q8evuaZqzTVPSCp+MUtx2GR7GxtjDgxJ1MSTMKjlwHrPr4YBCyYFyuSgsqabtjuWQfsT8Q8xaSVLPGcI1A==",
+  "dgSpecHash": "EMZEhrCH0lXxmTJbMoexVAtfR3zgfSNlF+pI/lSO7czJcdkYf2lyhfBf/csXYTcy9EI0vAHIka+rmUd1JGFpkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ale\\RiderProjects\\dynamicProgramming\\DynamicProgramming\\DynamicProgramming.csproj",
+  "projectFilePath": "C:\\Users\\ale\\RiderProjects\\dynamicProgramming\\dynamicPorgrammingPractice\\DynamicProgramming\\DynamicProgramming.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ale\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\ale\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

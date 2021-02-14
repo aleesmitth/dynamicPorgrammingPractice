@@ -11,9 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76894d1c-1328-4efe-bddf-5030446d710a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/bin/Debug/netcoreapp3.1/DynamicProgramming.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/bin/Debug/netcoreapp3.1/DynamicProgramming.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/CanSum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/GridTraveler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/HowSum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/bin/Debug/netcoreapp3.1/DynamicProgramming.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/bin/Debug/netcoreapp3.1/DynamicProgramming.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/DynamicProgramming.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/DynamicProgramming.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +36,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TestProject1/Fibonacci.cs" />
         <option value="$PROJECT_DIR$/TestProject1/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/Gridtraveler.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/GridTraveler.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/CanSum.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/HowSum.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1oFV34B0hm3j7f41pL0eVfu9D2Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -47,9 +67,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="C#" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="a156c9a2-66b6-4b6c-a6cf-8bfa76c43704" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,6 +88,10 @@
       <workItem from="1612882145055" duration="120000" />
       <workItem from="1612882477695" duration="1284000" />
       <workItem from="1612883952027" duration="374000" />
+      <workItem from="1612888842021" duration="727000" />
+      <workItem from="1613250273060" duration="741000" />
+      <workItem from="1613251104191" duration="3310000" />
+      <workItem from="1613254452189" duration="6259000" />
     </task>
     <servers />
   </component>
@@ -79,6 +110,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -100,5 +132,13 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="507" y="184" key="SettingsEditor/93.0.1827.1080@93.0.1827.1080" timestamp="1612884092457" />
+    <state x="663" y="250" key="run.anything.popup" timestamp="1612888875199">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="663" y="250" key="run.anything.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1612888875199" />
+    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1613253744901">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1613253744901" />
   </component>
 </project>

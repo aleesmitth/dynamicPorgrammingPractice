@@ -4633,11 +4633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ale\\RiderProjects\\dynamicProgramming\\DynamicProgramming\\DynamicProgramming.csproj",
+      "projectUniqueName": "C:\\Users\\ale\\RiderProjects\\dynamicProgramming\\dynamicPorgrammingPractice\\DynamicProgramming\\DynamicProgramming.csproj",
       "projectName": "DynamicProgramming",
-      "projectPath": "C:\\Users\\ale\\RiderProjects\\dynamicProgramming\\DynamicProgramming\\DynamicProgramming.csproj",
+      "projectPath": "C:\\Users\\ale\\RiderProjects\\dynamicProgramming\\dynamicPorgrammingPractice\\DynamicProgramming\\DynamicProgramming.csproj",
       "packagesPath": "C:\\Users\\ale\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ale\\RiderProjects\\dynamicProgramming\\DynamicProgramming\\obj\\",
+      "outputPath": "C:\\Users\\ale\\RiderProjects\\dynamicProgramming\\dynamicPorgrammingPractice\\DynamicProgramming\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ale\\AppData\\Roaming\\NuGet\\NuGet.Config",
