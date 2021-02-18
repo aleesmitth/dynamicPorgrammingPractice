@@ -11,21 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76894d1c-1328-4efe-bddf-5030446d710a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/CanSum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/GridTraveler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/HowSum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/BestSum.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DynamicProgramming/bin/Debug/netcoreapp3.1/DynamicProgramming.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/bin/Debug/netcoreapp3.1/DynamicProgramming.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/DynamicProgramming.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/DynamicProgramming.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +28,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/19/3cb9170d/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/036799C2-B011-481E-9AC0-18F17EDDF719/C/LinkedList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -48,8 +42,9 @@
         <option value="$PROJECT_DIR$/DynamicProgramming/GridTraveler.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/CanSum.cs" />
-        <option value="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/HowSum.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/BestSum.cs" />
       </list>
     </option>
   </component>
@@ -64,6 +59,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502567" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30005705" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="C#" />
@@ -76,7 +73,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="a156c9a2-66b6-4b6c-a6cf-8bfa76c43704" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,6 +88,7 @@
       <workItem from="1613250273060" duration="741000" />
       <workItem from="1613251104191" duration="3310000" />
       <workItem from="1613254452189" duration="6259000" />
+      <workItem from="1613606094841" duration="13983000" />
     </task>
     <servers />
   </component>
@@ -124,6 +121,86 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="746" y="245" key="Github.UntrackedFilesDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1612883765709" />
+    <state width="1784" height="383" key="GridCell.Tab.0.bottom" timestamp="1613630249981">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.0.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249981" />
+    <state width="1784" height="383" key="GridCell.Tab.0.center" timestamp="1613630249981">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.0.center/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249981" />
+    <state width="1784" height="383" key="GridCell.Tab.0.left" timestamp="1613630249981">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.0.left/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249981" />
+    <state width="1784" height="383" key="GridCell.Tab.0.right" timestamp="1613630249981">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249981" />
+    <state width="1784" height="383" key="GridCell.Tab.1.bottom" timestamp="1613630249981">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.1.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249981" />
+    <state width="1784" height="383" key="GridCell.Tab.1.center" timestamp="1613630249981">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.1.center/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249981" />
+    <state width="1784" height="383" key="GridCell.Tab.1.left" timestamp="1613630249981">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.1.left/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249981" />
+    <state width="1784" height="383" key="GridCell.Tab.1.right" timestamp="1613630249981">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.1.right/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249981" />
+    <state width="1784" height="383" key="GridCell.Tab.2.bottom" timestamp="1613630249982">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.2.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249982" />
+    <state width="1784" height="383" key="GridCell.Tab.2.center" timestamp="1613630249982">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.2.center/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249982" />
+    <state width="1784" height="383" key="GridCell.Tab.2.left" timestamp="1613630249982">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.2.left/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249982" />
+    <state width="1784" height="383" key="GridCell.Tab.2.right" timestamp="1613630249982">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.2.right/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249982" />
+    <state width="1784" height="383" key="GridCell.Tab.3.bottom" timestamp="1613630249982">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.3.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249982" />
+    <state width="1784" height="383" key="GridCell.Tab.3.center" timestamp="1613630249982">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.3.center/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249982" />
+    <state width="1784" height="383" key="GridCell.Tab.3.left" timestamp="1613630249982">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.3.left/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249982" />
+    <state width="1784" height="383" key="GridCell.Tab.3.right" timestamp="1613630249982">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.3.right/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249982" />
+    <state width="1784" height="383" key="GridCell.Tab.4.bottom" timestamp="1613630249983">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.4.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249983" />
+    <state width="1784" height="383" key="GridCell.Tab.4.center" timestamp="1613630249983">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.4.center/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249983" />
+    <state width="1784" height="383" key="GridCell.Tab.4.left" timestamp="1613630249982">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.4.left/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249982" />
+    <state width="1784" height="383" key="GridCell.Tab.4.right" timestamp="1613630249983">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="383" key="GridCell.Tab.4.right/93.0.1827.1080@93.0.1827.1080" timestamp="1613630249983" />
     <state x="598" y="271" key="Rider.ProjectTemplateDialog.Size" timestamp="1612882650457">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>

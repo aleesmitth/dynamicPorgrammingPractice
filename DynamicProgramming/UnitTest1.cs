@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -51,6 +52,34 @@ namespace TestProject1 {
             Assert.AreEqual(20, list.Sum());
             list = HowSum.Memoize(300, new[] {7, 14});
             Assert.IsNull(list);
+        }
+
+        [Test]
+        public void test06BestSumMemoize() {
+            var list = default(LinkedList<int>);
+            //---
+            list = BestSum.Memoize(7, new[] {3, 4, 7});
+            Assert.AreEqual(7, list.First.Value);
+            Console.WriteLine(list.First.Value);
+            Console.WriteLine("--");
+            //---
+            list = BestSum.Memoize(13, new[] {3, 4, 7});
+            int[] output = {3, 3, 7};
+            var i = 0;
+            foreach (var number in list) {
+                Assert.AreEqual(output[i], number);
+                Console.WriteLine(number);
+                i++;
+            }
+            Console.WriteLine("--");
+            //---
+            list = BestSum.Memoize(100, new[]{2, 1, 5, 25});
+            output = new[] {25, 25, 25, 25};
+            foreach (var number in list) {
+                Assert.AreEqual(output[i], number);
+                Console.WriteLine(number);
+            }
+            Console.WriteLine("--");
         }
 
         private int[] FibonacciNumbers() {
