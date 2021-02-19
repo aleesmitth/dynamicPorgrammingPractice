@@ -17,7 +17,9 @@
       <e p="dynamicProgramming" t="IncludeRecursive">
         <e p="BestSum.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CanConstruct.cs" t="Include" />
         <e p="CanSum.cs" t="Include" />
+        <e p="CountConstruct.cs" t="Include" />
         <e p="dynamicPorgrammingPractice" t="Include">
           <e p=".gitignore" t="Include" />
           <e p="LICENSE" t="Include" />

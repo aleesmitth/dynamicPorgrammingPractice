@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76894d1c-1328-4efe-bddf-5030446d710a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/BestSum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/CanConstruct.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/CountConstruct.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" afterDir="false" />
@@ -43,8 +44,10 @@
         <option value="$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/CanSum.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/HowSum.cs" />
-        <option value="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/BestSum.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/CountConstruct.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/CanConstruct.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +92,7 @@
       <workItem from="1613251104191" duration="3310000" />
       <workItem from="1613254452189" duration="6259000" />
       <workItem from="1613606094841" duration="13983000" />
+      <workItem from="1613682978505" duration="11045000" />
     </task>
     <servers />
   </component>
@@ -213,9 +217,9 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="663" y="250" key="run.anything.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1612888875199" />
-    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1613253744901">
+    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1613683180715">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1613253744901" />
+    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1613683180715" />
   </component>
 </project>

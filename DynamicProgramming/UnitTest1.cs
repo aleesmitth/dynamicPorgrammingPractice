@@ -82,6 +82,31 @@ namespace TestProject1 {
             Console.WriteLine("--");
         }
 
+        [Test]
+        public void test07CanConstructMemoize() {
+            Assert.True(CanConstruct.Memoize("abcdef", new[] {"ab", "abc", "cd", "def", "abcd"}));
+            Assert.False(CanConstruct.Memoize("skateboard", new[] {"bo", "rd", "ate", "t", "ska", "sk", "boar"}));
+            Assert.True(CanConstruct.Memoize("", new[] {"cat", "dog", "mouse"}));
+            Assert.True(CanConstruct.Memoize("enterapotentpot", new[] {"a", "p", "ent", "enter", "ot", "o", "t"}));
+            Assert.False(CanConstruct.Memoize("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef",
+                new[] {"e", "ee", "eee", "eeee", "eeeee", "eeeeee", "eeeeeee"}));
+            Assert.False(CanConstruct.Memoize("aasasaadasdasdasdhasdasdasddasasdasdasdaasdasdjk",
+                new[] {"a", "bc", "x", "sd", "e", "z"}));
+        }
+
+        [Test]
+        public void test08CountConstructMemoize() {
+            Assert.AreEqual(1, CountConstruct.Memoize("abcdef", new[] {"ab", "abc", "cd", "def", "abcd"}));
+            Assert.AreEqual(0, CountConstruct.Memoize("skateboard", new[] {"bo", "rd", "ate", "t", "ska", "sk", "boar"}));
+            Assert.AreEqual(1, CountConstruct.Memoize("", new[] {"cat", "dog", "mouse"}));
+            Assert.AreEqual(4, CountConstruct.Memoize("enterapotentpot", new[] {"a", "p", "ent", "enter", "ot", "o", "t"}));
+            Assert.AreEqual(2, CountConstruct.Memoize("purple", new[] {"purp", "p", "ur", "le", "purpl"}));
+            Assert.AreEqual(0, CountConstruct.Memoize("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef",
+                new[] {"e", "ee", "eee", "eeee", "eeeee", "eeeeee", "eeeeeee"}));
+            Assert.AreEqual(0, CountConstruct.Memoize("aasasaadasdasdasdhasdasdasddasasdasdasdaasdasdjk",
+                new[] {"a", "bc", "x", "sd", "e", "z"}));
+        }
+
         private int[] FibonacciNumbers() {
             int[] fibonacciNumbers = new int[99];
             fibonacciNumbers[0] = 0;
