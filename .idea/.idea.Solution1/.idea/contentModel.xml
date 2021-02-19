@@ -15,6 +15,7 @@
     <e p="C:\Users\ale\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
     <e p="C:\Users\ale\RiderProjects\dynamicProgramming\dynamicPorgrammingPractice" t="IncludeFlat">
       <e p="dynamicProgramming" t="IncludeRecursive">
+        <e p="AllConstruct.cs" t="Include" />
         <e p="BestSum.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CanConstruct.cs" t="Include" />

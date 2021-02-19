@@ -107,6 +107,36 @@ namespace TestProject1 {
                 new[] {"a", "bc", "x", "sd", "e", "z"}));
         }
 
+        [Test]
+        public void test09AllConstructMemoize() {
+            var answer = AllConstruct.Memoize("asd", new[] {"a", "s", "d", "as", "sd"});
+            foreach (var word in answer.SelectMany(list => list)) {
+                Console.WriteLine(word);
+            }
+            Assert.IsNull(AllConstruct.Memoize("asd", new[] {"x", "z", "v", "gs", "sd"}));
+            
+            Assert.IsNull(AllConstruct.Memoize("skateboard", new[] {"bo", "rd", "ate", "t", "ska", "sk", "boar"}));
+            
+            answer = AllConstruct.Memoize("", new[] {"cat", "dog", "mouse"});
+            foreach (var word in answer.SelectMany(list => list)) {
+                Console.WriteLine(word);
+            }
+            
+            answer = AllConstruct.Memoize("enterapotentpot", new[] {"a", "p", "ent", "enter", "ot", "o", "t"});
+            foreach (var word in answer.SelectMany(list => list)) {
+                Console.WriteLine(word);
+            }
+            
+            answer = AllConstruct.Memoize("purple", new[] {"purp", "p", "ur", "le", "purpl"});
+            foreach (var word in answer.SelectMany(list => list)) {
+                Console.WriteLine(word);
+            }
+            
+            Assert.IsNull(AllConstruct.Memoize("eeeeeeeeeeeeeeef",
+                new[] {"e", "ee", "eee", "eeee", "eeeee", "eeeeee", "eeeeeee"}));
+
+        }
+
         private int[] FibonacciNumbers() {
             int[] fibonacciNumbers = new int[99];
             fibonacciNumbers[0] = 0;

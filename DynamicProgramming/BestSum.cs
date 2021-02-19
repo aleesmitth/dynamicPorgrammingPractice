@@ -38,11 +38,7 @@ namespace TestProject1 {
         /// makes a copy of the received list and returns it.
         /// </summary>
         private static LinkedList<T> MakeCopyOfList<T>(LinkedList<T> list) {
-            LinkedList<T> bufferList = new LinkedList<T>();
-            foreach (var element in list) {
-                bufferList.AddLast(element);
-            }
-
+            LinkedList<T> bufferList = new LinkedList<T>(list);
             return bufferList;
         }
     }

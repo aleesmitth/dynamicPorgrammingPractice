@@ -11,10 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76894d1c-1328-4efe-bddf-5030446d710a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/CanConstruct.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/CountConstruct.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/AllConstruct.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/BestSum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/BestSum.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DynamicProgramming/bin/Debug/netcoreapp3.1/DynamicProgramming.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/bin/Debug/netcoreapp3.1/DynamicProgramming.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/obj/Debug/netcoreapp3.1/DynamicProgramming.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -44,9 +44,10 @@
         <option value="$PROJECT_DIR$/DynamicProgramming/Fibonacci.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/CanSum.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/HowSum.cs" />
-        <option value="$PROJECT_DIR$/DynamicProgramming/BestSum.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/CountConstruct.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/CanConstruct.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/BestSum.cs" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/AllConstruct.cs" />
         <option value="$PROJECT_DIR$/DynamicProgramming/UnitTest1.cs" />
       </list>
     </option>
@@ -93,6 +94,7 @@
       <workItem from="1613254452189" duration="6259000" />
       <workItem from="1613606094841" duration="13983000" />
       <workItem from="1613682978505" duration="11045000" />
+      <workItem from="1613716166851" duration="8201000" />
     </task>
     <servers />
   </component>
