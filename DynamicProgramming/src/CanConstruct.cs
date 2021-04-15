@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace TestProject1 {
@@ -38,6 +39,21 @@ namespace TestProject1 {
 
             memoize[target] = false;
             return false;
+        }
+
+        public static bool Tabulation(string target, string[] array) {
+            bool[] table = new bool[target.Length + 1];
+            table[0] = true;
+            for (int i = 0; i < target.Length; i++) {
+                if (!table[i]) continue;
+                foreach (var word in array) {
+                    if (i + word.Length > target.Length) continue;
+                    if (target.Substring(i, word.Length) != word) continue;
+                    table[i + word.Length] = true;
+                }
+            }
+
+            return table[target.Length];
         }
     }
 }

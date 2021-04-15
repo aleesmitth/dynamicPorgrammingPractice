@@ -35,6 +35,29 @@ namespace TestProject1 {
             return !isPossible ? null : MakeCopyOfList(memoize[target]);
         }
 
+        public static LinkedList<LinkedList<string>> Tabulation(string target, string[] array) {
+            LinkedList<LinkedList<string>>[] table = new LinkedList<LinkedList<string>>[target.Length + 1];
+            table[0] = new LinkedList<LinkedList<string>>();
+            table[0].AddFirst(new LinkedList<string>());
+
+            for (int i = 0; i < target.Length; i++) {
+                if(table[i] == null) continue;
+                foreach (var listOfWords in table[i]) {
+                    foreach (var word in array) {
+                        if (word.Length + i > target.Length) continue;
+                        if (target.Substring(i, word.Length) != word) continue;
+                        table[word.Length + i] ??= new LinkedList<LinkedList<string>>();
+                        var newList = new LinkedList<string>(listOfWords);
+                        newList.AddLast(word);
+                        table[word.Length + i].AddFirst(newList);
+                    }
+                }
+            }
+
+            return table[target.Length];
+        }
+
+
         /// <summary>
         /// makes a copy of the received list of lists and returns it.
         /// </summary>

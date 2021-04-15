@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace TestProject1 {
@@ -31,6 +32,20 @@ namespace TestProject1 {
             //for what i understand this goes through the array with "number", starts with current = false,
             //and then does current |= memize[sum]
             return array.Aggregate(false, (current, number) => current | (memoize[sum] = Memoize(sum - number, array, memoize)));
+        }
+        
+        public static bool Tabulation(int sum, int[] array) {
+            bool[] table = new bool[sum + 1];
+            table[0] = true;
+            for (int i = 0; i < sum; i++) {
+                if (table[i] != true) continue;
+                foreach (var number in array) {
+                    if(i + number >= table.Length) continue;
+                    table[i + number] = true;
+                }
+            }
+
+            return table[sum];
         }
     }
 }

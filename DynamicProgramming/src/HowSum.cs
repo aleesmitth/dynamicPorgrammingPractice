@@ -24,5 +24,20 @@ namespace TestProject1 {
             memoize[sum] = null;
             return null;
         }
+
+        public static LinkedList<int> Tabulation(int sum, int[] array) {
+            LinkedList<int>[] table = new LinkedList<int>[sum + 1];
+            table[0] = new LinkedList<int>();
+            for (int i = 0; i < table.Length; i++) {
+                if (table[i] == null) continue;
+                foreach (var number in array) {
+                    if (number + i >= table.Length) continue;
+                    table[i + number] = new LinkedList<int>(table[i]);
+                    table[i + number].AddFirst(number);
+                }
+            }
+
+            return table[sum];
+        }
     }
 }

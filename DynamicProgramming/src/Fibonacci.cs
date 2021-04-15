@@ -29,5 +29,20 @@ namespace TestProject1 {
 
             return buffer[n];
         }
+        
+        /// <summary>
+        /// returns the nth fibonacci number using tabulation approach, better space complexity than memoize 
+        /// </summary>
+        public static long Tabulation(int n) {
+            long[] table = new long[n + 2];
+            table[0] = 0;
+            table[1] = 1;
+            for (int i = 0; i < n; i++) {
+                table[i + 1] += table[i];
+                table[i + 2] += table[i];
+            }
+
+            return table[n];
+        }
     }
 }

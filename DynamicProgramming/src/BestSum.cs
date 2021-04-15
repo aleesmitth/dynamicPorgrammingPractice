@@ -31,7 +31,25 @@ namespace TestProject1 {
             if (shortestList == null) return null;
             memoize[sum] = shortestList;
             //if i dont make a copy, i'll risk modifying the stored list.
-            return MakeCopyOfList(shortestList);;
+            return MakeCopyOfList(shortestList);
+        }
+        
+        public static LinkedList<int> Tabulation(int sum, int[] array) {
+            LinkedList<int>[] table = new LinkedList<int>[sum + 1];
+            table[0] = new LinkedList<int>();
+            for (int i = 0; i < table.Length; i++) {
+                if(table[i] == null) continue;
+                foreach (var number in array) {
+                    if(i + number >= table.Length) continue;
+                    var newCombination = new LinkedList<int>(table[i]);
+                    newCombination.AddFirst(number);
+                    table[i + number] ??= newCombination;
+                    if (newCombination.Count > table[i + number].Count) continue;
+                    table[i + number] = newCombination;
+                }
+            }
+
+            return table[sum];
         }
 
         /// <summary>
